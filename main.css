@@ -3,16 +3,16 @@
 /* Style the tab */
 div.tab {
     overflow: hidden;
-    border: 30px solid #429bf4;
+    border: 25px solid #429bf4;
     background-color: #429bf4;
-	margin-top: -20px;
+	margin-top: -35px;
 }
 div.body {
 	text-align: center;
 }
 div.ground{
 	overflow: hidden;
-    border: 5px solid #9b6217;
+    border: 1px solid #9b6217;
     background-color: #9b6217;
 	margin-top: 0px;
 }
@@ -56,4 +56,25 @@ div.body2 {
 	padding-left:80px;
 	border-right: 5px dashed #146800;
 	border-left: 5px dashed #146800;
+}
+#game {
+	background-color:lightgreen;
+	margin: 0px;
+	margin-top: -25px;
+	padding: 0px;
+}
+iframe {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left:400px;
+  margin-right:400px;
+
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+
 }
